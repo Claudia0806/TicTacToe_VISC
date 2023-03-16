@@ -98,32 +98,8 @@ bool tie()
 
 int main()
 {
-    char flag;
-    bool true_false;
-    flag = ' ';
-    printf("Tic Tac Toe.\n");
-    printf("\n1  | 2 | 3\n---|---|---\n4  | 5 | 6\n---|---|---\n7  | 8 | 9\n\n");
-    printf("El jugador 1 es X, y el jugador 2 es O.\n");
-    clean();
-    do
-    {
-        movement('X');
-        flag = check_winner();
-        print_matrix();
-        if (flag != ' ') break;
-        if (tie()) break;
-
-        movement('O');
-        flag = check_winner();
-        print_matrix();
-    }
-    while(flag == ' ');
-
-    if (flag == 'X') printf("Ganador: jugador 1\n");
-    else if (tie()) printf("Empate \n");
-    else printf("Ganador: jugador 2\n");
-
-    return 0;
+    printf("Hello world");
+    printf("aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa");
 }
 
 
